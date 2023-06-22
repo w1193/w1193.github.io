@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+
+    font-size:14px;
+    line-height: 50px;
+    text-align: center;
+
+    transition-duration: 0.3s;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    
+}
+
+
+.menu {
+width: 100%;
+overflow: hidden;
+margin: 150px auto;
+}
+
+.menu > li {
+width: 20%;
+background-color: blue;
+}
+
+.menu a {
+color: white;
+}
+
+.dropdown > li {
+background-color: lightblue;
+}
+
+.dropdown {
+height: 0;
+overflow: hidden;
+}
+
+.menu > li:hover {
+background-color: skyblue;
+}
+
+.menu > li:hover .dropdown {
+height: 150px;
+}
+
+.menu > li:hover .dropdown li:hover{
+height: 50px;
+background-color: skyblue;
+}

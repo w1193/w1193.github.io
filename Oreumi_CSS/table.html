@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        table{
+            text-align: center;
+            border-collapse: collapse;
+            width: 400px;
+            height: 100px;
+
+            margin: 20px;
+        }
+
+        td, th{
+            border: black 1px solid;
+            width: 100px;
+            height: 30px;
+        }
+
+        tfoot td{
+            border: none;
+        }
+
+        thead{
+            background-color: lightgray;
+            font-weight: bold;
+        }
+
+        .row-head{
+            background-color: lightgray;
+            border-right: 2px solid black;
+            font-weight: bold;
+        }
+
+        .first-row td{
+            border-top: 2px solid black;
+        }
+
+    </style>
+
+</head>
+<body>
+    <table>
+        <thead>
+            <th class="row-head">구분</th>
+            <th>2016년</th>
+            <th>2022년</th>
+        </thead>
+        <tbody>
+            <tr class="first-row">
+                <td class="row-head">철학</td>
+                <td>50%</td>
+                <td>54.9%</td>
+            </tr>
+            <tr>
+                <td class="row-head">소설</td>
+                <td>40.7%</td>
+                <td>53.4%</td>
+            </tr>
+            <tr>
+                <td class="row-head">자기계발</td>
+                <td>51.0%</td>
+                <td>51.6%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">나는 이런 종류의 책이 사고싶다</td>
+        </tfoot>
+    </table>
+</body>
+</html>
