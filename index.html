@@ -10,10 +10,13 @@
 
         *{
             text-align: center;
+            background-color: #f0f0f0;
         }
        
         .welling{
             border: 2px solid black;
+            border-radius: 10px;
+
             text-align: center;
             margin: 10px;
 
@@ -22,6 +25,12 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+
+            background-color: white;
+        }
+
+        p, h3, a{
+            background-color: white;
         }
 
         .welling a{
@@ -37,25 +46,34 @@
             border-radius: 5px;
         }
 
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
     </style>
 </head>
 
 <body>
     <h1>2기 연습용</h1>
 
-    <div class="welling">
-        <h3>6.21 html 파트정리</h3>
-        <p><a href="6.21/practice_css_signed_in.html">로그인페이지</a></p>
-    </div>
 
-    <div class="welling">
-        
-        <h3>6.22 CSS 파트 정리</h3>
-
-        <p><a href="/6.22/table.html">1. table </a></p>
-        <p><a href="/6.22/dropdown_row.html"> 2. 가로줄 드롭다운</a></p>
-        <p><a href="/6.22/dropdown_col.html"> 2. 세로줄 드롭다운</a></p>
-
+    <div class="container">
+        <div class="welling">
+            <h3>6.21 html 파트정리</h3>
+            <p><a href="6.21/practice_css_signed_in.html">로그인페이지</a></p>
+        </div>
+    
+        <div class="welling">
+            
+            <h3>6.22 CSS 파트 정리</h3>
+    
+            <p><a href="/6.22/table.html">1. table </a></p>
+            <p><a href="/6.22/dropdown_row.html"> 2. 가로줄 드롭다운</a></p>
+            <p><a href="/6.22/dropdown_col.html"> 2. 세로줄 드롭다운</a></p>
+    
+        </div>
     </div>
 
 
