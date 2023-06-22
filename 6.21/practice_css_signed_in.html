@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+
+            background-color: #f0f0f0;
+        }
+
+        .all_container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 100%;
+
+            margin-top: 50px;
+        }
+
+        .all_container .main_container{
+            width: 700px;
+        }
+
+        .header .lang {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .lang_sel{
+            width:100px;
+            height: 30px;
+            color:gray;
+            border: solid 1px gray;
+        }
+
+        .login_title{
+            color: green;
+
+
+            font-size: 50px;
+            font-weight: bold;
+            padding-top: 30px;;
+            text-align: center;
+        }
+
+
+        .sign_in_form_wrap{
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .id_input_wrap{
+            width: 400px;
+            height: 50px;
+            border: solid 1px lightgray;
+            background-color: white;
+        }
+
+        .id_input{
+            border: none;
+            width: 380px;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 15px;
+            height: 30px;
+            background-color: white;
+        }
+        
+        .pwd_input_wrap{
+            width: 400px;
+            height: 50px;
+            border: solid 1px lightgray;
+            background-color: white;
+            margin-top: 10px;
+        }
+
+        .pwd_input{
+            border: none;
+            width: 380px;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 15px;
+            height: 30px;
+            background-color: white;
+        }
+
+        .submit_input_wrap{
+            width: 400px;
+            height: 50px;
+            border: solid 1px lightgray;
+            background-color: white;
+            margin-top: 10px;
+        }
+
+        .submit_input{
+            width: 400px;
+            height: 50px;
+            background-color: lightgreen;
+            color: white;
+            border: solid 1px lightgreen;
+            font-size: 20px;
+        }
+
+        .login_stay_wrap{
+            width: 400px;
+            height: 50px;
+            
+            margin-top: 10px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .login_stay_label{
+            padding-left: 5px;;
+        }
+        
+        .login_stay{
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            border: 1px solid #999;
+            appearance: none;
+            cursor: pointer;
+        }
+
+        .login_stay:checked{
+            background: lightgreen;
+            border: none;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="all_container">
+        <div class="main_container">
+
+
+            <div class="header">
+                <div class="lang">
+                    <select name="lang" class="lang_sel">
+                        <option value="ko">한국어</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+
+                <div class="login_title">
+                    로그인
+                </div>
+            </div>
+
+            <form action="./practice_css_result.html" class="sign_in_form_wrap">
+
+
+                <div class="id_input_wrap">
+                    <input type="text" placeholder="ID" class="id_input">
+                </div>
+
+                <div class="pwd_input_wrap">
+                    <input type="password" placeholder="password" class="pwd_input">
+                </div>
+
+                <div class="submit_input_wrap">
+                    <input type="submit" value="로그인" class="submit_input">
+                </div>
+
+
+                <div class="login_stay_wrap">
+                    <input type="checkbox" name="login_stay" class="login_stay"> <label for="login_stay" class="login_stay_label">로그인유지</label>
+                </div>
+
+            </form>
+
+
+
+            
+        </div>
+    </div>
+</body>
+</html>
