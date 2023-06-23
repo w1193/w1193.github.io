@@ -1,0 +1,166 @@
+body{
+    background-color: #EAEAEA;
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
+
+}
+
+.main-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+/* header 부분 */
+
+header{
+    background-color: #d9d9d9;
+    height: 150px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+/* footer 부분 */
+
+footer{
+    width: 100%;
+    background-color: white;
+    margin: 0px;
+    padding: 50px 0;
+
+    text-align: center;
+}
+
+footer p{
+    color: lightgray;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+footer .personal{
+    font-weight: 800;
+}
+
+
+
+/* section 부분 */
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    height:500px;
+    padding-top: 15px;
+}
+
+section article{
+    width: 70%;
+    background-color: white;
+}
+
+section aside{
+    width: 27%;
+    margin-left: 3%;
+    background-color: white;
+}
+
+h2 span{
+    color: blue;
+}
+
+article h2{
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+article li {
+    line-height: 40px;
+}
+
+.point{
+    height:70%;
+
+}
+
+.how-long h2{
+    margin: 0;
+}
+
+
+.subtitle{
+    width: 100%; 
+    background-color: black; 
+    border-radius: 10px; 
+    margin: 10px 0; 
+    padding: 10px; 
+    color: white; 
+    font-size: 15px; 
+    font-weight: 700;
+}
+
+.how-long{
+    display: flex;
+    flex-direction: column;
+}
+
+.how-long h2{
+    padding-bottom: 15px;
+}
+
+table{
+    width: 90%;
+    border: 2px solid #EBEBEB;
+    border-collapse: collapse;
+    align-self: center;
+    box-shadow: 0 0 5px #EAEAEA;
+    text-align: center;
+}
+
+td, th{
+    border: 2px solid #EBEBEB;
+}
+
+thead{
+    background-color: #d9d9d9;
+}
+
+
+
+
+aside{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 40px;
+
+    padding-left: 20px;
+}
+
+aside h2{
+    padding-left: 20px;
+}
